@@ -1,0 +1,21 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplifyauth-20190408222748-authRole",
+            "UnauthRoleArn": "arn:aws:iam::521207350702:role/amplifyauth-20190408222748-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::521207350702:role/amplifyauth-20190408222748-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplifyauth-20190408222748-deployment",
+            "UnauthRoleName": "amplifyauth-20190408222748-unauthRole",
+            "StackName": "amplifyauth-20190408222748",
+            "StackId": "arn:aws:cloudformation:eu-west-1:521207350702:stack/amplifyauth-20190408222748/284c40c0-5a45-11e9-9718-0646713dba72"
+        },
+        "categories": {
+            "auth": {
+                "amplifyauth": {
+                    "googleClientId": "925354576593-bvscuojq9vodgnq4nvjc0k29ks32pj6f.apps.googleusercontent.com"
+                }
+            }
+        }
+    }
+}
