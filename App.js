@@ -1,11 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React, { Component } from 'react';
 import { StyleSheet, Text, ScrollView, SafeAreaView, StatusBar, Button } from 'react-native';
 
@@ -22,14 +14,13 @@ const oauth = {
   scope: ['email', 'profile', 'openid', 'aws.cognito.signin.user.admin'],
 
   // Callback URL
-  redirectSignIn: 'amplifyauth://', // or 'exp://127.0.0.1:19000/--/', 'myapp://main/'
+  redirectSignIn: 'amplifyauth://', // or 'exp://127.0.0.1:19000/--/'
 
   // Sign out URL
-  redirectSignOut: 'amplifyauth://', // or 'exp://127.0.0.1:19000/--/', 'myapp://main/'
+  redirectSignOut: 'amplifyauth://', // or 'exp://127.0.0.1:19000/--/'
 
   // 'code' for Authorization code grant, 
-  // 'token' for Implicit grant
-  responseType: 'token',
+  responseType: 'code',
 
 }
 
